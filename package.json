@@ -1,0 +1,25 @@
+{
+  "name": "js-perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "memory": "npm run build && node --expose-gc ./build/memory"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/filesize": "^5.0.0",
+    "@types/node": "^20.4.7",
+    "@types/underscore": "^1.11.6",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "eslint": "^8.46.0",
+    "filesize": "^10.0.8",
+    "memlab": "^1.1.40",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6",
+    "underscore": "^1.13.6"
+  }
+}
